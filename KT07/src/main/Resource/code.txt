@@ -1,0 +1,25 @@
+DebugSpawn "book_birds"
+c_give("nightstick",1)
+c_give("wall_ruins_item	",11)
+DebugSpawn "chester"
+c_give("nightstick",1)
+c_give("nightstick",1)
+
+inst.components.health:SetMaxHealth(500)
+
+
+
+
+c_give("wall_stone_item",100)
+
+c_give("mole",100)
+
+c_give("goldnugget",100)
+
+DebugSpawn "chester"
+
+DebugSpawn pumpkin_lantern
+
+DebugSpawn koalefant_summer
+
+fertilizer
