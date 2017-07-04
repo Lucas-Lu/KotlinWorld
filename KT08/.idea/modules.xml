@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT08.iml" filepath="$PROJECT_DIR$/.idea/modules/KT08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT08_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KT08_main.iml" group="KT08" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT08_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KT08_test.iml" group="KT08" />
+    </modules>
+  </component>
+</project>
