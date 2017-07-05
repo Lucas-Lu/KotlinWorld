@@ -9,4 +9,5 @@ import rx.Observable
  */
 fun main(args:Array<String>){
     val text = File(ClassLoader.getSystemResource("code").path).readText()
+    Obervable.from(text)
 }
