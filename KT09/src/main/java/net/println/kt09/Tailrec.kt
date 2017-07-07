@@ -18,6 +18,6 @@ tailrec fun factorial(num: Int, result: Result){
 
 fun main(args: Array<String>) {
     val result = Result()
-    factorial(1000000, result)
+    factorial(10000, result)
     println(result.value)
 }
