@@ -13,7 +13,7 @@ interface Api {
 
 object ApiFactory {
     val api: Api by lazy {
-        Proxy.newProxyInstance(ApiFactory.javaClass.classLoader, arrayOf(Api::class.java)) {
+        Proxy.newProxyInstance(javaClass.classLoader, arrayOf(Api::class.java)) {
             proxy, method, args ->
             val responseType = method.genericReturnType
             val adapter = Gson().getAdapter(TypeToken.get(responseType))
