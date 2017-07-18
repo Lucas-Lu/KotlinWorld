@@ -4,6 +4,10 @@
     <bytecodeTargetLevel>
       <module name="KT14_main" target="1.8" />
       <module name="KT14_test" target="1.8" />
+      <module name="KT14I_main" target="1.8" />
+      <module name="KT14I_test" target="1.8" />
+      <module name="KT14Internal_main" target="1.8" />
+      <module name="KT14Internal_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

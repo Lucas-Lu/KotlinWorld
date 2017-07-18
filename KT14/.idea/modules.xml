@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT14.iml" filepath="$PROJECT_DIR$/.idea/modules/KT14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT14I/KT14I_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KT14I/KT14I_main.iml" group="KT14I" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT14I/KT14I_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KT14I/KT14I_test.iml" group="KT14I" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT14Internal.iml" filepath="$PROJECT_DIR$/.idea/modules/KT14Internal.iml" group="KT14Internal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT14Internal/KT14Internal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KT14Internal/KT14Internal_main.iml" group="KT14Internal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT14Internal/KT14Internal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KT14Internal/KT14Internal_test.iml" group="KT14Internal" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT14_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KT14_main.iml" group="KT14" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KT14_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KT14_test.iml" group="KT14" />
     </modules>

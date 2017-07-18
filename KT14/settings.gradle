@@ -1,2 +1,4 @@
 rootProject.name = 'KT14'
+include 'KT14Internal'
+include 'KT14I'
 
