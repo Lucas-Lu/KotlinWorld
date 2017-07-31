@@ -14,4 +14,5 @@ class NullSafetySubClass:NullSafetyAbsClass(){
 fun main(args:Array<String>){
     val nullSafetyAbs = NullSafetySubClass()
     print(nullSafetyAbs.formatDate(Date()))
+    print(nullSafetyAbs.formateTime(Date()))
 }
