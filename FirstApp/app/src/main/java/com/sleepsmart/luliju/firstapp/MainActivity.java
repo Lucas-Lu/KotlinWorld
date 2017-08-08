@@ -3,6 +3,7 @@ package com.sleepsmart.luliju.firstapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -18,18 +19,15 @@ public class MainActivity extends AppCompatActivity {
         );
 
         Button Btnswitch = (Button) findViewById(R.id.Switch);
-        Btnswitch.setOnClickListener(listener);
-        Intent intent = new Intent();
-        intent.setClass(this, LoginActivity.class);
-        startActivity(intent);
 
+        Btnswitch.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(v.getContext(), LoginActivity.class);
+                startActivity(intent);
+            }
+        });
     }
-
-    Button.OnClickListener listener = new Button.OnClickListener(){//创建监听对象
-        public void onClick(){
-            String strTmp="点击Button02";
-        }
-
-    };
-
 }
