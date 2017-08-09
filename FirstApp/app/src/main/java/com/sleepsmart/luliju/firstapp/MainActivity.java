@@ -12,10 +12,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sign);
         TextView testText = (TextView) findViewById(R.id.editText);
         testText.setText(
-                "TTT"
+                "点击按钮注册"
         );
 
         Button Btnswitch = (Button) findViewById(R.id.Switch);
